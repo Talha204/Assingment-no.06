@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-3q3ylU6GKU6BGuhztG4hnH4JjKX9fNV/fOkz5MKGJyH5z5KmCw/qFV8WpHzzZvP7X9DxOuG8+FdQbkYH06JDgw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto:wght@300&family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto:wght@300&family=Source+Sans+Pro:wght@900&display=swap"
+        rel="stylesheet">
     <title>Assignment no.6</title>
     <style>
         #form-a {
@@ -59,19 +61,30 @@
             margin: 30px 0 0 0;
             justify-content: space-around;
         }
-        .box1 h1{
+
+        .box1 h1 {
             color: #ffff;
-            font-size: 50px;
+            font-size: 70px;
             margin: 60px 0 0 0;
-            font-family:'Source Sans Pro', sans-serif;
+            font-family: 'Source Sans Pro', sans-serif;
         }
-        
-         
-        .box2{
+
+        .box2 {
             box-sizing: border-box;
             display: flex;
             justify-content: end;
-            margin: 60px 0 0 0 ;
+            margin: 80px 0 0 0;
+        }
+
+        .box1child {
+            background-color: #fff;
+            width: 656px;
+            height: 174.44px;
+            border-radius: 16px;
+            box-shadow: 2px;
+        }
+        .btn{
+            background-color: #fff;
         }
     </style>
 </head>
@@ -111,10 +124,25 @@
     </nav>
 
     <header>
-    <div class="container2">
-        <div class="box1"><h1>Are you starving?</h1></div>
-        <div class="box2"> <img src="Image Base.png" alt=""></div>
-    </div>
+        <div class="container2">
+            <div class="box1">
+                <h1>Are you starving?</h1>
+                <p style="font-size: 15px;">Within a few clicks, find meals that are accessible near you</p>
+                <div class="box1child">
+
+                    <div class="d-grid gap-1 d-md-block">
+                        <button class="btn"><img src="deleviry.png" alt=""></button>
+                        <button class="btn" type="button"><img src="pickup.png" alt=""></button>
+                      </div>
+                      <div class="box1child2">
+                        
+                      </div>
+
+                </div>
+            </div>
+            <div class="box2"> <img src="Image Base.png" alt=""></div>
+        </div>
     </header>
 </body>
+
 </html>
