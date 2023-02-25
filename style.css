@@ -112,6 +112,10 @@ input[type="search"] {
 }
 .manu{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
      flex-wrap: wrap;
+
+}
+.location{
+    margin: 0 -14px;
 }
