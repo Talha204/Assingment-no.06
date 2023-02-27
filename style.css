@@ -99,7 +99,7 @@ input[type="search"] {
 }
 .btn-delivery:hover{
     color: #FFB30E;
-    background-color: #e7d7ba;
+    background-color: #f8f4ed;
     box-shadow: 0 0 10px rgba(0, 123, 255, 0.7);
     transform: scale(1.05);
 }
@@ -114,8 +114,19 @@ input[type="search"] {
     display: flex;
     justify-content: center;
      flex-wrap: wrap;
-
 }
-.location{
-    margin: 0 -14px;
+.orderNow:hover{
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.7);
+    transform: scale(1.05);
+}
+.opennow:hover{
+    color: #79B93C;
+    background-color: #f5ffeb;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.7);
+    transform: scale(1.05);
+}
+.opennow{
+    color: #79B93C;
+    border-radius: 10px;
+    background: #d4fab1;
 }
