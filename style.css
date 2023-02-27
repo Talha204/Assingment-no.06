@@ -130,3 +130,9 @@ input[type="search"] {
     border-radius: 10px;
     background: #d4fab1;
 }
+.centerbutton:hover{
+    color: #FFBA26;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.7);
+    transform: scale(1.05);
+}
